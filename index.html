@@ -12,7 +12,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
 <script>
   tailwind.config = {
     theme: {
@@ -35,7 +34,6 @@
     }
   }
 </script>
-
 <style>
   body {
     font-family: 'Poppins', sans-serif;
@@ -86,13 +84,10 @@
 </head>
 <body class="antialiased selection:bg-watuYellow selection:text-watuInk bg-white flex flex-col min-h-screen">
 
-<!-- ========================================== -->
 <!-- STICKY HEADER NAVIGATION -->
-<!-- ========================================== -->
 <header class="sticky top-0 z-50 glass-header border-b border-watuDeepTeal/10 transition-all duration-300">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-20">
-      
       <!-- Brand Logo -->
       <a href="javascript:void(0)" onclick="navigateTo('page1')" class="flex items-center gap-2 group">
         <div class="text-3xl font-black tracking-tighter text-watuYellow drop-shadow-sm">
@@ -139,7 +134,7 @@
       <i class="fa-solid fa-house mr-2 text-watuTeal"></i> Discover & Impact
     </button>
     <button onclick="navigateTo('page2'); toggleMobileNav();" class="block w-full text-left font-semibold text-watuInk hover:text-watuTeal py-2 border-b border-gray-100">
-      <i class="fa-solid fa-box-open mr-2 text-watuTeal"></i> Products Catalog (Bodas, Phones, TVs, Audio & Electronics)
+      <i class="fa-solid fa-box-open mr-2 text-watuTeal"></i> Products Catalog (Bodas, Phones, TVs, Appliances & Cookers)
     </button>
     <button onclick="navigateTo('page3'); toggleMobileNav();" class="block w-full text-left font-semibold text-watuInk hover:text-watuTeal py-2 border-b border-gray-100">
       <i class="fa-solid fa-file-signature mr-2 text-watuTeal"></i> Apply for Financing & Terms
@@ -158,17 +153,14 @@
 <!-- MAIN CONTENT CONTAINER -->
 <main class="flex-grow">
 
-  <!-- ========================================== -->
   <!-- PAGE 1: DISCOVER, HERO & IMPACT -->
-  <!-- ========================================== -->
   <div id="page1" class="page-view active">
-    
     <!-- Hero Banner -->
     <section class="hero-gradient text-white relative overflow-hidden py-20 lg:py-28">
       <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="grid lg:grid-cols-12 gap-12 items-center">
-          
+            
           <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
             <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 text-watuLime font-bold text-xs uppercase tracking-wider">
               <i class="fa-solid fa-bolt text-watuYellow animate-pulse"></i> Empowering Kenya's Future
@@ -179,7 +171,7 @@
             </h1>
 
             <p class="text-base sm:text-lg text-teal-50 font-light max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Asset financing for motorcycles, three-wheelers, smart TVs, home theatres, electronics, and smartphones used for work and everyday connectivity across Kenya. Flexible daily and weekly payments.
+              Asset financing for motorcycles, smart TVs (20 Models), smartphones (20 Models), cookers, and home appliances. Flexible daily and weekly payments across Kenya.
             </p>
 
             <!-- Dynamic Counter Cards -->
@@ -221,7 +213,7 @@
                 <h3 class="text-lg font-extrabold">Bajaj Boxer BM 150 HD</h3>
               </div>
               <img src="https://bajajeastafrica.com/wp-content/uploads/2021/12/bm150.png" alt="Bajaj Boxer BM 150" class="h-52 object-contain mx-auto transition transform hover:scale-105 duration-300" onerror="this.src='https://placehold.co/400x250/00403C/FFFFFF?text=Bajaj+Boxer+150'">
-              
+                
               <div class="mt-4 space-y-2 border-t pt-3">
                 <div class="flex justify-between items-center text-xs font-semibold">
                   <span class="text-gray-500">Deposit:</span>
@@ -247,13 +239,13 @@
       </div>
     </section>
 
-    <!-- WHY WATU (3 Key Pillars) -->
+    <!-- WHY WATU -->
     <section class="py-20 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-2xl mx-auto mb-16">
           <span class="bg-watuTeal/10 text-watuDarkTeal text-xs font-extrabold tracking-widest uppercase px-4 py-1.5 rounded-full inline-block mb-3">Why Watu</span>
           <h2 class="text-3xl sm:text-4xl font-extrabold text-watuInk">Fast, Flexible & Transparent Financing</h2>
-          <p class="text-watuMuted text-sm mt-2">Watu provides quick onboarding, flexible payments, and clear terms — reliable asset access built around how you earn.</p>
+          <p class="text-watuMuted text-sm mt-2">Watu provides quick onboarding, flexible payments, and clear terms across phones, TVs, and appliances.</p>
         </div>
 
         <div class="grid md:grid-cols-3 gap-8">
@@ -263,7 +255,7 @@
             </div>
             <h3 class="text-xl font-bold text-watuInk mb-2">Quick Onboarding</h3>
             <p class="text-watuMuted text-xs leading-relaxed">
-              Get approved and on the road fast — our streamlined process requires minimal paperwork and delivers fast turnarounds at our branch network.
+              Get approved fast — minimal paperwork with instant pre-approval via WhatsApp intake.
             </p>
           </div>
 
@@ -273,7 +265,7 @@
             </div>
             <h3 class="text-xl font-bold text-watuInk mb-2">Flexible Payments</h3>
             <p class="text-watuMuted text-xs leading-relaxed">
-              Repayment structures designed around daily and weekly earnings. Pay Lipa Mdogo Mdogo effortlessly via M-Pesa.
+              Repayment structures designed around daily and weekly earnings via M-Pesa.
             </p>
           </div>
 
@@ -281,121 +273,10 @@
             <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-watuTeal to-watuDarkTeal text-white flex items-center justify-center text-2xl mb-6 shadow-md">
               <i class="fa-solid fa-shield-alt"></i>
             </div>
-            <h3 class="text-xl font-bold text-watuInk mb-2">Clear Terms & Logbook</h3>
+            <h3 class="text-xl font-bold text-watuInk mb-2">Clear Original Terms</h3>
             <p class="text-watuMuted text-xs leading-relaxed">
-              No hidden fees, no surprise costs. Full NTSA Logbook ownership is directly transferred to you upon 100% payment completion.
+              Transparent cash vs credit pricing on 20 phone models, 20 TV models, cookers, and home electronics.
             </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- COMPANY STATEMENT SECTION -->
-    <section class="py-16 bg-gradient-to-r from-watuDarkTeal to-watuTeal text-white text-center">
-      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <p class="text-lg sm:text-2xl font-medium leading-relaxed">
-          <strong class="text-watuLime">A leading asset financier focused on mobility and connectivity.</strong> Watu provides financing for motorcycles, three-wheelers, smart TVs, home theatres, electronics, and smartphones across multiple markets through systems built for scale, reliability, and long-term customer success.
-        </p>
-      </div>
-    </section>
-
-    <!-- HOW IT WORKS (3 Steps) -->
-    <section class="py-20 bg-watuBgSoft" id="howItWorks">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-2xl mx-auto mb-16">
-          <span class="bg-watuTeal/10 text-watuDarkTeal text-xs font-extrabold tracking-widest uppercase px-4 py-1.5 rounded-full inline-block mb-3">Simple Process</span>
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-watuInk">How Do We Do It?</h2>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm relative">
-            <div class="text-5xl font-black text-watuTeal/20 mb-4">01</div>
-            <h3 class="text-lg font-bold text-watuInk mb-2">Streamlined Onboarding</h3>
-            <p class="text-watuMuted text-xs leading-relaxed">Select your asset, submit basic identification details online, and get instant pre-approval.</p>
-          </div>
-
-          <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm relative">
-            <div class="text-5xl font-black text-watuTeal/20 mb-4">02</div>
-            <h3 class="text-lg font-bold text-watuInk mb-2">Pay Small Initial Deposit</h3>
-            <p class="text-watuMuted text-xs leading-relaxed">Make your initial deposit (from KES 23,899 for Bodas / KES 1,599 for Samsung phones / KES 12,000 for TVs) and collect your asset.</p>
-          </div>
-
-          <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm relative">
-            <div class="text-5xl font-black text-watuTeal/20 mb-4">03</div>
-            <h3 class="text-lg font-bold text-watuInk mb-2">Earn & Own</h3>
-            <p class="text-watuMuted text-xs leading-relaxed">Make daily or weekly payments as you earn. Receive full original ownership documentation upon completion.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CLIENT TESTIMONIALS (Initial Avatar Badges) -->
-    <section class="py-20 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-2xl mx-auto mb-16">
-          <span class="bg-watuLime/40 text-watuInk text-xs font-extrabold tracking-widest uppercase px-4 py-1.5 rounded-full inline-block mb-3">Customer Stories</span>
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-watuInk">Trusted Across Kenyan Counties</h2>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="bg-watuBgSoft p-6 rounded-3xl border border-gray-100 flex flex-col justify-between">
-            <div class="space-y-3">
-              <div class="flex text-watuYellow text-xs gap-1">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-              </div>
-              <p class="text-xs text-gray-700 italic leading-relaxed">
-                "Watu allowed me to get my Boxer 125 with KES 32,599 deposit. The weekly KES 2,200 payment is very easy to maintain while working daily routes."
-              </p>
-            </div>
-            <div class="flex items-center gap-3 pt-6 border-t border-gray-200 mt-4">
-              <div class="w-10 h-10 rounded-full bg-watuTeal text-white font-black flex items-center justify-center text-xs shadow-md border-2 border-watuLime">
-                J.O.
-              </div>
-              <div>
-                <h4 class="font-bold text-xs text-watuInk">J.O.</h4>
-                <p class="text-[10px] text-gray-500">Nakuru Town</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="bg-watuBgSoft p-6 rounded-3xl border border-gray-100 flex flex-col justify-between">
-            <div class="space-y-3">
-              <div class="flex text-watuYellow text-xs gap-1">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-              </div>
-              <p class="text-xs text-gray-700 italic leading-relaxed">
-                "Zero hidden charges. Completed my BM 150 payments and collected my official NTSA logbook at the Embakasi office smoothly!"
-              </p>
-            </div>
-            <div class="flex items-center gap-3 pt-6 border-t border-gray-200 mt-4">
-              <div class="w-10 h-10 rounded-full bg-watuDarkTeal text-white font-black flex items-center justify-center text-xs shadow-md border-2 border-watuYellow">
-                B.K.
-              </div>
-              <div>
-                <h4 class="font-bold text-xs text-watuInk">B.K.</h4>
-                <p class="text-[10px] text-gray-500">Eldoret Stage</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="bg-watuBgSoft p-6 rounded-3xl border border-gray-100 flex flex-col justify-between">
-            <div class="space-y-3">
-              <div class="flex text-watuYellow text-xs gap-1">
-                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-              </div>
-              <p class="text-xs text-gray-700 italic leading-relaxed">
-                "Got my Hisense Smart TV and Samsung phone through Lipa Mdogo Mdogo. Flexible weekly payments made upgrading my home very easy."
-              </p>
-            </div>
-            <div class="flex items-center gap-3 pt-6 border-t border-gray-200 mt-4">
-              <div class="w-10 h-10 rounded-full bg-watuDeepTeal text-watuYellow font-black flex items-center justify-center text-xs shadow-md border-2 border-watuTeal">
-                W.M.
-              </div>
-              <div>
-                <h4 class="font-bold text-xs text-watuInk">W.M.</h4>
-                <p class="text-[10px] text-gray-500">Embakasi, Nairobi</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -405,11 +286,11 @@
     <section class="py-20 bg-watuBgSoft border-t border-gray-200" id="locationSection">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid lg:grid-cols-12 gap-8 items-center">
-          
+            
           <div class="lg:col-span-5 space-y-4">
             <span class="bg-watuTeal/10 text-watuDarkTeal text-xs font-extrabold tracking-widest uppercase px-4 py-1.5 rounded-full inline-block">Visit Our Branch</span>
             <h2 class="text-3xl font-extrabold text-watuInk">Nairobi Embakasi Branch</h2>
-            
+              
             <div class="bg-white p-6 rounded-2xl border border-gray-200 space-y-3 text-xs">
               <div class="flex items-start gap-3">
                 <i class="fa-solid fa-location-dot text-watuTeal text-lg mt-0.5"></i>
@@ -441,7 +322,6 @@
             </button>
           </div>
 
-          <!-- Real Interactive Map Embed -->
           <div class="lg:col-span-7 h-80 lg:h-96 rounded-3xl overflow-hidden shadow-xl border-4 border-white">
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.161406830588!2d36.8850!3d-1.3180!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f122501a5fa67%3A0xb3514a451105e197!2sEmbakasi%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske" 
@@ -457,352 +337,162 @@
         </div>
       </div>
     </section>
-
   </div>
 
-  <!-- ========================================== -->
   <!-- PAGE 2: PRODUCTS CATALOG & PRICING -->
-  <!-- ========================================== -->
   <div id="page2" class="page-view">
-    
-    <!-- Catalog Header -->
     <section class="bg-watuDeepTeal text-white py-14">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-3">
         <span class="bg-watuLime text-watuInk text-xs font-black uppercase tracking-widest px-4 py-1.5 rounded-full inline-block">Lipa Mdogo Mdogo</span>
-        <h1 class="text-3xl sm:text-5xl font-black">Official Products & Rates</h1>
-        <p class="text-teal-100 text-sm max-w-xl mx-auto">Explore authentic Bajaj Boxer Bodas, Samsung Smartphones, Smart TVs (20 Brands), Home Theatre Hoofers (20 Brands), and Electronics with transparent weekly and daily payment terms.</p>
+        <h1 class="text-3xl sm:text-5xl font-black">Official Products & Pricing Catalog</h1>
+        <p class="text-teal-100 text-sm max-w-xl mx-auto">Explore 20 Smart TV Models, 20 Smartphone Models, Cookers & Home Appliances with original cash pricing and daily/weekly payment plans.</p>
       </div>
     </section>
 
     <!-- SECTION 1: BODA BODA CATALOG -->
     <section class="py-16 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         <div class="flex items-center justify-between border-b border-gray-200 pb-4 mb-10">
           <div>
-            <h2 class="text-2xl font-extrabold text-watuInk">1. Bajaj Boxer Boda Boda Series</h2>
-            <p class="text-xs text-watuMuted">Heavy-duty commercial motorcycles engineered for Kenyan road conditions</p>
+            <h2 class="text-2xl font-extrabold text-watuInk">1. Commercial Motorbikes</h2>
+            <p class="text-xs text-watuMuted">Heavy-duty commercial motorcycles engineered for Kenyan roads</p>
           </div>
           <span class="hidden sm:inline-block bg-watuTeal/10 text-watuDarkTeal font-bold text-xs px-3.5 py-1.5 rounded-full">24 Months Warranty</span>
         </div>
 
         <div class="grid md:grid-cols-3 gap-8">
-          
-          <!-- MODEL 1: BM 100 -->
-          <div class="bg-watuBgSoft rounded-3xl p-6 border border-gray-200 flex flex-col justify-between hover:shadow-xl transition duration-300">
+          <!-- BM 100 -->
+          <div class="bg-watuBgSoft rounded-3xl p-6 border border-gray-200 flex flex-col justify-between hover:shadow-xl transition">
             <div>
               <div class="bg-white rounded-2xl p-4 shadow-sm mb-4 border border-gray-100 text-center">
                 <img src="https://markholdingskenya.com/storage/images/mIDzQ5Ix.png" alt="Bajaj Boxer BM 100" class="h-44 object-contain mx-auto" onerror="this.src='https://placehold.co/400x250/00403C/FFFFFF?text=Bajaj+Boxer+BM+100'">
               </div>
               <span class="text-[10px] font-extrabold text-watuTeal uppercase tracking-wider bg-watuTeal/10 px-2.5 py-1 rounded-md">Fuel Champion</span>
               <h3 class="text-xl font-extrabold text-watuInk mt-1">Bajaj Boxer BM 100</h3>
-              <p class="text-xs text-gray-500 mb-4">Max fuel economy for town and urban commute.</p>
-
               <div class="space-y-2 text-xs border-t border-b border-gray-200 py-3 mb-4">
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Total & Cash Price:</span>
-                  <strong class="text-watuInk font-extrabold">KES 188,000</strong>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Initial Deposit:</span>
-                  <strong class="text-watuDarkTeal font-extrabold text-sm">KES 23,899</strong>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Weekly Installment:</span>
-                  <strong class="text-emerald-600 font-extrabold">KES 3,000 / wk</strong>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Official Warranty:</span>
-                  <span class="font-bold text-watuInk">24 Months</span>
-                </div>
+                <div class="flex justify-between"><span class="text-gray-600">Original Cash Price:</span><strong class="text-watuInk font-extrabold">KES 188,000</strong></div>
+                <div class="flex justify-between"><span class="text-gray-600">Initial Deposit:</span><strong class="text-watuDarkTeal font-extrabold">KES 23,899</strong></div>
+                <div class="flex justify-between"><span class="text-gray-600">Weekly Installment:</span><strong class="text-emerald-600 font-extrabold">KES 3,000 / wk</strong></div>
               </div>
             </div>
-
             <button onclick="selectProductAndApply('Bajaj Boxer BM 100')" class="w-full bg-watuTeal hover:bg-watuDarkTeal text-white font-bold py-3 rounded-xl transition text-xs shadow-md">
               Order BM 100 Now <i class="fa-solid fa-chevron-right ml-1"></i>
             </button>
           </div>
 
-          <!-- MODEL 2: BM 125 -->
-          <div class="bg-watuBgSoft rounded-3xl p-6 border-2 border-watuTeal/40 flex flex-col justify-between hover:shadow-2xl transition duration-300 relative">
-            <div class="absolute -top-3 right-6 bg-watuYellow text-watuInk font-black text-[10px] uppercase px-3 py-1 rounded-full shadow">
-              Popular Choice
-            </div>
+          <!-- BM 125 -->
+          <div class="bg-watuBgSoft rounded-3xl p-6 border-2 border-watuTeal/40 flex flex-col justify-between hover:shadow-2xl transition relative">
+            <div class="absolute -top-3 right-6 bg-watuYellow text-watuInk font-black text-[10px] uppercase px-3 py-1 rounded-full shadow">Popular Choice</div>
             <div>
               <div class="bg-white rounded-2xl p-4 shadow-sm mb-4 border border-gray-100 text-center">
                 <img src="https://www.ailkenya.com/wp-content/uploads/2020/06/0A0A0197-scaled.jpg" alt="Bajaj Boxer BM 125" class="h-44 object-contain mx-auto" onerror="this.src='https://placehold.co/400x250/00403C/FFFFFF?text=Bajaj+Boxer+BM+125'">
               </div>
               <span class="text-[10px] font-extrabold text-watuTeal uppercase tracking-wider bg-watuTeal/10 px-2.5 py-1 rounded-md">Balanced Torque</span>
               <h3 class="text-xl font-extrabold text-watuInk mt-1">Bajaj Boxer BM 125</h3>
-              <p class="text-xs text-gray-500 mb-4">5-speed gearbox for optimal hill climbing.</p>
-
               <div class="space-y-2 text-xs border-t border-b border-gray-200 py-3 mb-4">
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Mdogo Mdogo Credit:</span>
-                  <strong class="text-watuInk font-extrabold">KES 202,000</strong>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Outright Cash Price:</span>
-                  <span class="text-gray-800 font-bold">KES 197,000</span>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Initial Deposit:</span>
-                  <strong class="text-watuDarkTeal font-extrabold text-sm">KES 32,599</strong>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Weekly Installment:</span>
-                  <strong class="text-emerald-600 font-extrabold">KES 2,200 / wk</strong>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Official Warranty:</span>
-                  <span class="font-bold text-watuInk">24 Months</span>
-                </div>
+                <div class="flex justify-between"><span class="text-gray-600">Original Cash Price:</span><strong class="text-watuInk font-extrabold">KES 197,000</strong></div>
+                <div class="flex justify-between"><span class="text-gray-600">Initial Deposit:</span><strong class="text-watuDarkTeal font-extrabold">KES 32,599</strong></div>
+                <div class="flex justify-between"><span class="text-gray-600">Weekly Installment:</span><strong class="text-emerald-600 font-extrabold">KES 2,200 / wk</strong></div>
               </div>
             </div>
-
             <button onclick="selectProductAndApply('Bajaj Boxer BM 125')" class="w-full bg-watuYellow hover:bg-yellow-400 text-watuInk font-extrabold py-3 rounded-xl transition text-xs shadow-md">
               Order BM 125 Now <i class="fa-solid fa-chevron-right ml-1"></i>
             </button>
           </div>
 
-          <!-- MODEL 3: BM 150 -->
-          <div class="bg-watuBgSoft rounded-3xl p-6 border border-gray-200 flex flex-col justify-between hover:shadow-xl transition duration-300">
+          <!-- BM 150 -->
+          <div class="bg-watuBgSoft rounded-3xl p-6 border border-gray-200 flex flex-col justify-between hover:shadow-xl transition">
             <div>
               <div class="bg-white rounded-2xl p-4 shadow-sm mb-4 border border-gray-100 text-center">
                 <img src="https://bajajeastafrica.com/wp-content/uploads/2021/12/bm150.png" alt="Bajaj Boxer BM 150" class="h-44 object-contain mx-auto" onerror="this.src='https://placehold.co/400x250/00403C/FFFFFF?text=Bajaj+Boxer+BM+150'">
               </div>
               <span class="text-[10px] font-extrabold text-watuTeal uppercase tracking-wider bg-watuTeal/10 px-2.5 py-1 rounded-md">Heavy Load King</span>
               <h3 class="text-xl font-extrabold text-watuInk mt-1">Bajaj Boxer BM 150</h3>
-              <p class="text-xs text-gray-500 mb-4">Reinforced SNS suspension for rough terrain.</p>
-
               <div class="space-y-2 text-xs border-t border-b border-gray-200 py-3 mb-4">
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Total & Cash Price:</span>
-                  <strong class="text-watuInk font-extrabold">KES 210,000</strong>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Initial Deposit:</span>
-                  <strong class="text-watuDarkTeal font-extrabold text-sm">KES 40,399</strong>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Weekly Installment:</span>
-                  <strong class="text-emerald-600 font-extrabold">KES 3,300 / wk</strong>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-gray-600">Official Warranty:</span>
-                  <span class="font-bold text-watuInk">24 Months</span>
-                </div>
+                <div class="flex justify-between"><span class="text-gray-600">Original Cash Price:</span><strong class="text-watuInk font-extrabold">KES 210,000</strong></div>
+                <div class="flex justify-between"><span class="text-gray-600">Initial Deposit:</span><strong class="text-watuDarkTeal font-extrabold">KES 40,399</strong></div>
+                <div class="flex justify-between"><span class="text-gray-600">Weekly Installment:</span><strong class="text-emerald-600 font-extrabold">KES 3,300 / wk</strong></div>
               </div>
             </div>
-
             <button onclick="selectProductAndApply('Bajaj Boxer BM 150')" class="w-full bg-watuTeal hover:bg-watuDarkTeal text-white font-bold py-3 rounded-xl transition text-xs shadow-md">
               Order BM 150 Now <i class="fa-solid fa-chevron-right ml-1"></i>
             </button>
           </div>
-
         </div>
       </div>
     </section>
 
-    <!-- SECTION 2: SAMSUNG SMARTPHONE FAMILY (Safaricom Yellow & Green Theme with Dots) -->
+    <!-- SECTION 2: SMARTPHONES (20 UNIQUE MODELS) -->
     <section class="py-16 bg-gradient-to-br from-green-50 to-yellow-50 border-t border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         <div class="flex items-center justify-between border-b border-green-200 pb-4 mb-8">
           <div>
-            <h2 class="text-2xl font-extrabold text-watuInk">2. Samsung Smartphone Series (Lipa Mdogo Mdogo)</h2>
-            <p class="text-xs text-watuMuted">Deposit from KES 1,599 | Daily payments at just <strong class="text-green-700">KES 58/day</strong> | 17 Months Warranty</p>
+            <h2 class="text-2xl font-extrabold text-watuInk">2. Smartphone Models (20 Unique Models)</h2>
+            <p class="text-xs text-watuMuted">Original retail cash prices & flexible Lipa Mdogo Mdogo daily/weekly payments</p>
           </div>
-          <span class="bg-green-600 text-white font-bold text-xs px-3.5 py-1.5 rounded-full shadow-sm">Safaricom PAYGO Style</span>
+          <span class="bg-green-600 text-white font-bold text-xs px-3.5 py-1.5 rounded-full shadow-sm">PAYGO Options Available</span>
         </div>
 
-        <!-- Horizontal Snap Carousel for Phones -->
-        <div class="relative">
-          <div id="phoneCarousel" class="flex gap-6 overflow-x-auto hide-scrollbar snap-x snap-mandatory pb-4">
-            
-            <!-- PHONE 1: A06 -->
-            <div class="min-w-[280px] sm:min-w-[320px] bg-white rounded-3xl p-6 border border-green-200 snap-start flex flex-col justify-between shadow-md">
-              <div>
-                <span class="bg-green-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">Samsung Series</span>
-                <h4 class="text-lg font-bold text-gray-900 mt-3">Samsung Galaxy A06</h4>
-                <img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=300&q=80" alt="Samsung A06" class="h-32 object-contain mx-auto my-3">
-                <div class="space-y-1.5 text-xs bg-gray-50 p-3 rounded-xl border border-gray-100">
-                  <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-green-700">KES 1,599</strong></div>
-                  <div class="flex justify-between"><span class="text-gray-600">Daily Rate:</span><strong class="text-watuInk">KES 58 / day</strong></div>
-                  <div class="flex justify-between"><span class="text-gray-600">Warranty:</span><strong class="text-gray-900">17 Months</strong></div>
-                </div>
-              </div>
-              <button onclick="selectProductAndApply('Samsung Galaxy A06')" class="mt-5 w-full bg-watuYellow hover:bg-yellow-400 text-watuInk font-extrabold py-3 rounded-xl shadow transition text-xs">
-                Order Now
-              </button>
-            </div>
-
-            <!-- PHONE 2: A07 -->
-            <div class="min-w-[280px] sm:min-w-[320px] bg-white rounded-3xl p-6 border border-green-200 snap-start flex flex-col justify-between shadow-md">
-              <div>
-                <span class="bg-green-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">Samsung Series</span>
-                <h4 class="text-lg font-bold text-gray-900 mt-3">Samsung Galaxy A07</h4>
-                <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=300&q=80" alt="Samsung A07" class="h-32 object-contain mx-auto my-3">
-                <div class="space-y-1.5 text-xs bg-gray-50 p-3 rounded-xl border border-gray-100">
-                  <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-green-700">KES 1,750</strong></div>
-                  <div class="flex justify-between"><span class="text-gray-600">Daily Rate:</span><strong class="text-watuInk">KES 58 / day</strong></div>
-                  <div class="flex justify-between"><span class="text-gray-600">Warranty:</span><strong class="text-gray-900">17 Months</strong></div>
-                </div>
-              </div>
-              <button onclick="selectProductAndApply('Samsung Galaxy A07')" class="mt-5 w-full bg-watuYellow hover:bg-yellow-400 text-watuInk font-extrabold py-3 rounded-xl shadow transition text-xs">
-                Order Now
-              </button>
-            </div>
-
-            <!-- PHONE 3: A16 -->
-            <div class="min-w-[280px] sm:min-w-[320px] bg-white rounded-3xl p-6 border-2 border-green-600 snap-start flex flex-col justify-between shadow-md relative">
-              <span class="absolute top-3 right-3 bg-watuYellow text-watuInk text-[9px] font-black uppercase px-2.5 py-0.5 rounded-full">Top Seller</span>
-              <div>
-                <span class="bg-green-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">Samsung Series</span>
-                <h4 class="text-lg font-bold text-gray-900 mt-3">Samsung Galaxy A16</h4>
-                <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=300&q=80" alt="Samsung A16" class="h-32 object-contain mx-auto my-3">
-                <div class="space-y-1.5 text-xs bg-gray-50 p-3 rounded-xl border border-gray-100">
-                  <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-green-700">KES 1,900</strong></div>
-                  <div class="flex justify-between"><span class="text-gray-600">Daily Rate:</span><strong class="text-watuInk">KES 58 / day</strong></div>
-                  <div class="flex justify-between"><span class="text-gray-600">Warranty:</span><strong class="text-gray-900">17 Months</strong></div>
-                </div>
-              </div>
-              <button onclick="selectProductAndApply('Samsung Galaxy A16')" class="mt-5 w-full bg-watuYellow hover:bg-yellow-400 text-watuInk font-extrabold py-3 rounded-xl shadow transition text-xs">
-                Order Now
-              </button>
-            </div>
-
-            <!-- PHONE 4: A26 -->
-            <div class="min-w-[280px] sm:min-w-[320px] bg-white rounded-3xl p-6 border border-green-200 snap-start flex flex-col justify-between shadow-md">
-              <div>
-                <span class="bg-green-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">Samsung Series</span>
-                <h4 class="text-lg font-bold text-gray-900 mt-3">Samsung Galaxy A26</h4>
-                <img src="https://images.unsplash.com/photo-1565849904461-04a58ad377e0?auto=format&fit=crop&w=300&q=80" alt="Samsung A26" class="h-32 object-contain mx-auto my-3">
-                <div class="space-y-1.5 text-xs bg-gray-50 p-3 rounded-xl border border-gray-100">
-                  <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-green-700">KES 2,000</strong></div>
-                  <div class="flex justify-between"><span class="text-gray-600">Daily Rate:</span><strong class="text-watuInk">KES 58 / day</strong></div>
-                  <div class="flex justify-between"><span class="text-gray-600">Warranty:</span><strong class="text-gray-900">17 Months</strong></div>
-                </div>
-              </div>
-              <button onclick="selectProductAndApply('Samsung Galaxy A26')" class="mt-5 w-full bg-watuYellow hover:bg-yellow-400 text-watuInk font-extrabold py-3 rounded-xl shadow transition text-xs">
-                Order Now
-              </button>
-            </div>
-
-            <!-- PHONE 5: A35 5G -->
-            <div class="min-w-[280px] sm:min-w-[320px] bg-white rounded-3xl p-6 border border-green-200 snap-start flex flex-col justify-between shadow-md">
-              <div>
-                <span class="bg-green-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">Samsung Series</span>
-                <h4 class="text-lg font-bold text-gray-900 mt-3">Samsung Galaxy A35 5G</h4>
-                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=300&q=80" alt="Samsung A35 5G" class="h-32 object-contain mx-auto my-3">
-                <div class="space-y-1.5 text-xs bg-gray-50 p-3 rounded-xl border border-gray-100">
-                  <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-green-700">KES 2,500</strong></div>
-                  <div class="flex justify-between"><span class="text-gray-600">Daily Rate:</span><strong class="text-watuInk">KES 75 / day</strong></div>
-                  <div class="flex justify-between"><span class="text-gray-600">Warranty:</span><strong class="text-gray-900">17 Months</strong></div>
-                </div>
-              </div>
-              <button onclick="selectProductAndApply('Samsung Galaxy A35 5G')" class="mt-5 w-full bg-watuYellow hover:bg-yellow-400 text-watuInk font-extrabold py-3 rounded-xl shadow transition text-xs">
-                Order Now
-              </button>
-            </div>
-
-            <!-- PHONE 6: A55 5G -->
-            <div class="min-w-[280px] sm:min-w-[320px] bg-white rounded-3xl p-6 border border-green-200 snap-start flex flex-col justify-between shadow-md">
-              <div>
-                <span class="bg-green-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">Samsung Series</span>
-                <h4 class="text-lg font-bold text-gray-900 mt-3">Samsung Galaxy A55 5G</h4>
-                <img src="https://images.unsplash.com/photo-1574944985070-8f30c4397e3c?auto=format&fit=crop&w=300&q=80" alt="Samsung A55 5G" class="h-32 object-contain mx-auto my-3">
-                <div class="space-y-1.5 text-xs bg-gray-50 p-3 rounded-xl border border-gray-100">
-                  <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-green-700">KES 3,200</strong></div>
-                  <div class="flex justify-between"><span class="text-gray-600">Daily Rate:</span><strong class="text-watuInk">KES 90 / day</strong></div>
-                  <div class="flex justify-between"><span class="text-gray-600">Warranty:</span><strong class="text-gray-900">17 Months</strong></div>
-                </div>
-              </div>
-              <button onclick="selectProductAndApply('Samsung Galaxy A55 5G')" class="mt-5 w-full bg-watuYellow hover:bg-yellow-400 text-watuInk font-extrabold py-3 rounded-xl shadow transition text-xs">
-                Order Now
-              </button>
-            </div>
-
-          </div>
-
-          <!-- Carousel Pagination Dots -->
-          <div class="flex justify-center gap-2 mt-4">
-            <span class="w-3 h-3 rounded-full bg-green-600 cursor-pointer" onclick="scrollPhoneCarousel(0)"></span>
-            <span class="w-3 h-3 rounded-full bg-gray-300 cursor-pointer" onclick="scrollPhoneCarousel(1)"></span>
-            <span class="w-3 h-3 rounded-full bg-gray-300 cursor-pointer" onclick="scrollPhoneCarousel(2)"></span>
-            <span class="w-3 h-3 rounded-full bg-gray-300 cursor-pointer" onclick="scrollPhoneCarousel(3)"></span>
-            <span class="w-3 h-3 rounded-full bg-gray-300 cursor-pointer" onclick="scrollPhoneCarousel(4)"></span>
-            <span class="w-3 h-3 rounded-full bg-gray-300 cursor-pointer" onclick="scrollPhoneCarousel(5)"></span>
-          </div>
+        <div id="phoneCatalogGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Dynamically populated by JavaScript (20 items) -->
         </div>
-
       </div>
     </section>
 
-    <!-- SECTION 3: SMART TYS (20 Different Brands) -->
+    <!-- SECTION 3: SMART TVS (20 UNIQUE MODELS) -->
     <section class="py-16 bg-white border-t border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         <div class="flex items-center justify-between border-b border-gray-200 pb-4 mb-10">
           <div>
-            <h2 class="text-2xl font-extrabold text-watuInk">3. Smart TVs (20 Top Market Brands)</h2>
-            <p class="text-xs text-watuMuted">Liba Mdogo Mdogo installment plans. 12 months warranty on all TVs.</p>
+            <h2 class="text-2xl font-extrabold text-watuInk">3. Smart TV Models (20 Unique Models)</h2>
+            <p class="text-xs text-watuMuted">Original market cash prices & easy weekly installment financing</p>
           </div>
           <span class="bg-watuTeal/10 text-watuDarkTeal font-bold text-xs px-3.5 py-1.5 rounded-full">12 Months Warranty</span>
         </div>
 
         <div id="tvCatalogGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <!-- Dynamically populated by JavaScript with real imagery -->
+          <!-- Dynamically populated by JavaScript (20 items) -->
         </div>
-
       </div>
     </section>
 
-    <!-- SECTION 4: HOME THEATRES / SOUND SYSTEMS (20 Different Brands) -->
+    <!-- SECTION 4: COOKERS & KITCHEN RANGES -->
     <section class="py-16 bg-watuBgSoft border-t border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         <div class="flex items-center justify-between border-b border-gray-200 pb-4 mb-10">
           <div>
-            <h2 class="text-2xl font-extrabold text-watuInk">4. Home Theatre & Hi-Fi Sound Systems (20 Brands)</h2>
-            <p class="text-xs text-watuMuted">Deep bass hoofers and surround sound systems. Real market pricing with weekly terms.</p>
+            <h2 class="text-2xl font-extrabold text-watuInk">4. Cookers & Kitchen Stoves</h2>
+            <p class="text-xs text-watuMuted">Standing gas/electric ranges, tabletop burners, and induction cookers</p>
           </div>
-          <span class="bg-watuYellow/20 text-watuInk font-bold text-xs px-3.5 py-1.5 rounded-full">12 Months Warranty</span>
+          <span class="bg-watuYellow/20 text-watuInk font-bold text-xs px-3.5 py-1.5 rounded-full">Kitchen Range</span>
         </div>
 
-        <div id="audioCatalogGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <!-- Dynamically populated by JavaScript with real imagery -->
+        <div id="cookersCatalogGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Dynamically populated by JavaScript -->
         </div>
-
       </div>
     </section>
 
     <!-- SECTION 5: HOUSEHOLD ELECTRONICS & APPLIANCES -->
     <section class="py-16 bg-white border-t border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         <div class="flex items-center justify-between border-b border-gray-200 pb-4 mb-10">
           <div>
-            <h2 class="text-2xl font-extrabold text-watuInk">5. Household Electronics & Solar Systems</h2>
-            <p class="text-xs text-watuMuted">Fridges, washing machines, microwaves, cookers, and solar systems on weekly payment plans.</p>
+            <h2 class="text-2xl font-extrabold text-watuInk">5. Household Electronics & Appliances</h2>
+            <p class="text-xs text-watuMuted">Refrigerators, automatic washing machines, air fryers, and convection microwaves</p>
           </div>
-          <span class="bg-watuTeal/10 text-watuDarkTeal font-bold text-xs px-3.5 py-1.5 rounded-full">Real Market Brands</span>
+          <span class="bg-watuTeal/10 text-watuDarkTeal font-bold text-xs px-3.5 py-1.5 rounded-full">Authentic Warranties</span>
         </div>
 
         <div id="appliancesCatalogGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <!-- Dynamically populated by JavaScript with real imagery -->
+          <!-- Dynamically populated by JavaScript -->
         </div>
-
       </div>
     </section>
-
   </div>
 
-  <!-- ========================================== -->
   <!-- PAGE 3: PROFESSIONAL LOAN APPLICATION FORM -->
-  <!-- ========================================== -->
   <div id="page3" class="page-view">
-    
     <section class="bg-watuDeepTeal text-white py-12">
       <div class="max-w-4xl mx-auto px-4 text-center">
         <span class="bg-watuLime text-watuInk text-xs font-black uppercase px-3.5 py-1 rounded-full">Fast Approval</span>
@@ -813,9 +503,8 @@
 
     <section class="py-12 bg-gray-50">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         <form id="watuAppForm" onsubmit="submitWatuApplication(event)" class="bg-white p-8 rounded-3xl shadow-xl border border-gray-200 space-y-6">
-          
+            
           <!-- SELECTED ITEM DISPLAY -->
           <div class="bg-watuBgSoft p-4 rounded-2xl border border-watuTeal/30 flex justify-between items-center">
             <div>
@@ -934,7 +623,7 @@
             <label class="flex items-start gap-3 cursor-pointer">
               <input type="checkbox" id="appAgreeTerms" required class="mt-1 w-4 h-4 text-watuTeal rounded focus:ring-watuTeal">
               <span class="text-xs text-gray-700">
-                I hereby declare that all provided details are true. I accept <strong>Watu Credit Kenya Company's</strong> financing terms, confirming that NTSA logbook ownership will be transferred upon full completion of payments with zero hidden charges.
+                I hereby declare that all provided details are true. I accept <strong>Watu Credit Kenya Company's</strong> financing terms, confirming that ownership details will be transferred upon full completion of payments with zero hidden charges.
               </span>
             </label>
           </div>
@@ -943,28 +632,19 @@
           <button type="submit" class="w-full bg-gradient-to-r from-watuTeal to-watuDarkTeal hover:from-watuDarkTeal hover:to-watuInk text-white font-extrabold py-4 rounded-xl shadow-xl hover:scale-[1.01] transition transform text-sm flex items-center justify-center gap-2">
             <i class="fa-brands fa-whatsapp text-lg text-watuLime"></i> Submit Application to WhatsApp
           </button>
-
         </form>
-
       </div>
     </section>
-
   </div>
-
 </main>
 
-<!-- ========================================== -->
 <!-- FLOATING AI ASSISTANT CHATBOT (ASK WATU AI) -->
-<!-- ========================================== -->
 <div class="fixed bottom-6 right-6 z-50">
-  
-  <!-- Chat Button -->
   <button id="aiChatToggle" onclick="toggleAiChat()" class="bg-watuTeal hover:bg-watuDarkTeal text-white p-4 rounded-full shadow-2xl transition transform hover:scale-110 flex items-center justify-center relative">
     <i class="fa-solid fa-headset text-2xl"></i>
     <span class="absolute -top-1 -right-1 bg-watuYellow text-watuInk text-[10px] font-black px-2 py-0.5 rounded-full border border-white">AI</span>
   </button>
 
-  <!-- Chat Box Window -->
   <div id="aiChatBox" class="hidden absolute bottom-16 right-0 w-80 sm:w-96 bg-white rounded-3xl shadow-2xl border border-gray-200 overflow-hidden flex flex-col h-[480px]">
     <div class="bg-gradient-to-r from-watuDeepTeal to-watuTeal text-white p-4 flex justify-between items-center">
       <div class="flex items-center gap-2">
@@ -979,26 +659,24 @@
       <button onclick="toggleAiChat()" class="text-white hover:text-watuYellow"><i class="fa-solid fa-xmark text-lg"></i></button>
     </div>
 
-    <!-- Chat Messages History -->
     <div id="chatMessages" class="p-4 flex-grow overflow-y-auto space-y-3 chat-scroll text-xs bg-gray-50">
       <div class="bg-white p-3 rounded-2xl rounded-tl-none border border-gray-200 text-gray-800 shadow-sm">
-        Jambo! I am your <strong>Ask Watu AI</strong> assistant. Tap any of the 5 frequent questions below for instant answers:
+        Jambo! I am your <strong>Ask Watu AI</strong> assistant. Tap any FAQ below for instant details:
       </div>
     </div>
 
-    <!-- 5 FAQ TAPPABLE CHIPS -->
     <div class="p-3 bg-white border-t border-gray-200 space-y-1.5">
       <button onclick="askFaq(1)" class="w-full text-left bg-gray-50 hover:bg-watuTeal/10 text-watuInk font-medium p-2 rounded-xl text-[11px] transition border border-gray-200 flex items-center justify-between">
-        <span>1. How much is Boda Boda deposit?</span> <i class="fa-solid fa-chevron-right text-[9px] text-watuTeal"></i>
+        <span>1. Boda Boda financing & deposit rates?</span> <i class="fa-solid fa-chevron-right text-[9px] text-watuTeal"></i>
       </button>
       <button onclick="askFaq(2)" class="w-full text-left bg-gray-50 hover:bg-watuTeal/10 text-watuInk font-medium p-2 rounded-xl text-[11px] transition border border-gray-200 flex items-center justify-between">
-        <span>2. When do I get my NTSA logbook?</span> <i class="fa-solid fa-chevron-right text-[9px] text-watuTeal"></i>
+        <span>2. Smart TV models & cash prices?</span> <i class="fa-solid fa-chevron-right text-[9px] text-watuTeal"></i>
       </button>
       <button onclick="askFaq(3)" class="w-full text-left bg-gray-50 hover:bg-watuTeal/10 text-watuInk font-medium p-2 rounded-xl text-[11px] transition border border-gray-200 flex items-center justify-between">
-        <span>3. What are Samsung phone daily rates?</span> <i class="fa-solid fa-chevron-right text-[9px] text-watuTeal"></i>
+        <span>3. Smartphone models & daily rates?</span> <i class="fa-solid fa-chevron-right text-[9px] text-watuTeal"></i>
       </button>
       <button onclick="askFaq(4)" class="w-full text-left bg-gray-50 hover:bg-watuTeal/10 text-watuInk font-medium p-2 rounded-xl text-[11px] transition border border-gray-200 flex items-center justify-between">
-        <span>4. What are Smart TV & Home Theatre deposits?</span> <i class="fa-solid fa-chevron-right text-[9px] text-watuTeal"></i>
+        <span>4. Cookers & home appliances financing?</span> <i class="fa-solid fa-chevron-right text-[9px] text-watuTeal"></i>
       </button>
       <button onclick="askFaq(5)" class="w-full text-left bg-gray-50 hover:bg-watuTeal/10 text-watuInk font-medium p-2 rounded-xl text-[11px] transition border border-gray-200 flex items-center justify-between">
         <span>5. Where is the Embakasi branch located?</span> <i class="fa-solid fa-chevron-right text-[9px] text-watuTeal"></i>
@@ -1013,14 +691,14 @@
     <div class="grid md:grid-cols-4 gap-8 pb-8 border-b border-white/10 text-xs">
       <div class="space-y-3">
         <div class="text-3xl font-black text-watuYellow">watu<span class="text-watuTeal">.</span></div>
-        <p class="text-gray-400">Financing the future — asset financing for motorcycles, three-wheelers, smart TVs, home theatres, electronics, and smartphones across Kenya.</p>
+        <p class="text-gray-400">Financing the future — asset financing for motorcycles, smart TVs, cookers, home appliances, and smartphones across Kenya.</p>
       </div>
       <div>
         <h4 class="font-bold text-white text-sm mb-3">Quick Links</h4>
         <ul class="space-y-2 text-gray-400">
           <li><a href="javascript:void(0)" onclick="navigateTo('page1')" class="hover:text-watuYellow">Home & Impact</a></li>
           <li><a href="javascript:void(0)" onclick="navigateTo('page2')" class="hover:text-watuYellow">Boda Boda Catalog</a></li>
-          <li><a href="javascript:void(0)" onclick="navigateTo('page2')" class="hover:text-watuYellow">Smart TVs & Home Theatres</a></li>
+          <li><a href="javascript:void(0)" onclick="navigateTo('page2')" class="hover:text-watuYellow">Smart TVs & Smartphones</a></li>
           <li><a href="javascript:void(0)" onclick="navigateTo('page3')" class="hover:text-watuYellow">Loan Application</a></li>
         </ul>
       </div>
@@ -1044,7 +722,7 @@
   </div>
 </footer>
 
-<!-- JAVASCRIPT APP LOGIC -->
+<!-- JAVASCRIPT APP LOGIC & DATA -->
 <script>
   // 47 KENYAN COUNTIES LIST
   const kenyanCounties = [
@@ -1057,64 +735,68 @@
     "Kisumu", "Homa Bay", "Migori", "Kisii", "Nyamira", "Nairobi"
   ];
 
-  // 20 SMART TV BRANDS WITH REAL IMAGERY
-  const tvBrandsList = [
-    { name: "Hisense Smart TV", img: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=400&q=80" },
-    { name: "Samsung Crystal UHD TV", img: "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=400&q=80" },
-    { name: "LG AI ThinQ Smart TV", img: "https://images.unsplash.com/photo-1543857778-c4a1eb5e0e2f?auto=format&fit=crop&w=400&q=80" },
-    { name: "TCL Android Smart TV", img: "https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?auto=format&fit=crop&w=400&q=80" },
-    { name: "Vitron Frameless Smart TV", img: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=400&q=80" },
-    { name: "Vision Plus Smart TV", img: "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=400&q=80" },
-    { name: "Syinix Android TV", img: "https://images.unsplash.com/photo-1543857778-c4a1eb5e0e2f?auto=format&fit=crop&w=400&q=80" },
-    { name: "Sony Bravia 4K TV", img: "https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?auto=format&fit=crop&w=400&q=80" },
-    { name: "Skyworth FHD Smart TV", img: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=400&q=80" },
-    { name: "Carlcare Smart TV", img: "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=400&q=80" },
-    { name: "Bruhm Android Smart TV", img: "https://images.unsplash.com/photo-1543857778-c4a1eb5e0e2f?auto=format&fit=crop&w=400&q=80" },
-    { name: "Ramtons Digital TV", img: "https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?auto=format&fit=crop&w=400&q=80" },
-    { name: "Ampex Frameless TV", img: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=400&q=80" },
-    { name: "Sayona Smart TV", img: "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=400&q=80" },
-    { name: "Von Android TV", img: "https://images.unsplash.com/photo-1543857778-c4a1eb5e0e2f?auto=format&fit=crop&w=400&q=80" },
-    { name: "Armco Smart TV", img: "https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?auto=format&fit=crop&w=400&q=80" },
-    { name: "Haier 4K Smart TV", img: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=400&q=80" },
-    { name: "Westinghouse TV", img: "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=400&q=80" },
-    { name: "Royal Smart TV", img: "https://images.unsplash.com/photo-1543857778-c4a1eb5e0e2f?auto=format&fit=crop&w=400&q=80" },
-    { name: "Xiaomi Mi TV A2", img: "https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?auto=format&fit=crop&w=400&q=80" }
+  // 20 SMART TV MODELS (WITH REAL ASSET MAPPING, CASH & FINANCING PRICING)
+  const tvsList = [
+    { name: "Samsung S95D / S99H QD-OLED 55\"", cash: 245000, deposit: 45000, weekly: 4200, img: "image_agent_tag_4770646519988081814" },
+    { name: "Samsung QN90D Neo QLED 55\"", cash: 185000, deposit: 35000, weekly: 3100, img: "image_agent_tag_4770646519988081814" },
+    { name: "Samsung The Frame QLED 50\"", cash: 155000, deposit: 29000, weekly: 2600, img: "image_agent_tag_4770646519988081814" },
+    { name: "Samsung DU8000 Crystal UHD 43\"", cash: 52000, deposit: 14000, weekly: 850, img: "image_agent_tag_4770646519988081814" },
+    { name: "LG OLED C4 / C6 55\"", cash: 220000, deposit: 42000, weekly: 3800, img: "image_agent_tag_4770646519988081348" },
+    { name: "LG OLED G4 / G6 65\"", cash: 310000, deposit: 60000, weekly: 5200, img: "image_agent_tag_4770646519988081348" },
+    { name: "LG QNED85 Mini-LED 55\"", cash: 140000, deposit: 28000, weekly: 2400, img: "image_agent_tag_4770646519988081348" },
+    { name: "LG UT8000 UHD LED 43\"", cash: 48000, deposit: 12500, weekly: 790, img: "image_agent_tag_4770646519988081348" },
+    { name: "Sony BRAVIA 8 OLED 55\"", cash: 235000, deposit: 44000, weekly: 3950, img: "image_agent_tag_4770646519988083629" },
+    { name: "Sony BRAVIA 9 Mini-LED 65\"", cash: 340000, deposit: 65000, weekly: 5800, img: "image_agent_tag_4770646519988083629" },
+    { name: "Sony BRAVIA 3 4K HDR 50\"", cash: 98000, deposit: 21000, weekly: 1650, img: "image_agent_tag_4770646519988083629" },
+    { name: "TCL QM8 / C855 QD-Mini LED 55\"", cash: 125000, deposit: 25000, weekly: 2150, img: "image_agent_tag_4770646519988082419" },
+    { name: "TCL C655 QLED 43\"", cash: 42000, deposit: 11000, weekly: 720, img: "image_agent_tag_4770646519988082419" },
+    { name: "TCL P755 4K Google TV 50\"", cash: 54000, deposit: 13500, weekly: 900, img: "image_agent_tag_4770646519988082419" },
+    { name: "Hisense U8N Mini-LED 55\"", cash: 115000, deposit: 23000, weekly: 1980, img: "image_agent_tag_4770646519988084234" },
+    { name: "Hisense U6N Mini-LED 50\"", cash: 68000, deposit: 16000, weekly: 1150, img: "image_agent_tag_4770646519988084234" },
+    { name: "Hisense A6K Smart TV 43\"", cash: 35000, deposit: 10000, weekly: 620, img: "image_agent_tag_4770646519988084234" },
+    { name: "Xiaomi TV Max 85 QLED 85\"", cash: 260000, deposit: 52000, weekly: 4400, img: "image_agent_tag_4770646519988084234" },
+    { name: "Vision Plus 55\" 4K Smart TV", cash: 49000, deposit: 12000, weekly: 820, img: "image_agent_tag_4770646519988082419" },
+    { name: "Skyworth STE6600 Google TV 43\"", cash: 36500, deposit: 9500, weekly: 630, img: "image_agent_tag_4770646519988084234" }
   ];
 
-  // 20 HOME THEATRE / SOUND SYSTEM BRANDS (HOOFERS) WITH REAL IMAGERY
-  const audioBrandsList = [
-    { name: "Sony Shake Hi-Fi Hoofer", img: "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=400&q=80" },
-    { name: "Von Hotpoint Soundbar", img: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=400&q=80" },
-    { name: "Sayona Heavy Subwoofer 3.1", img: "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=400&q=80" },
-    { name: "Tagwood Deep Bass Hoofer", img: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=400&q=80" },
-    { name: "Ampex Multimedia 4.1", img: "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=400&q=80" },
-    { name: "Vitron Bluetooth Hoofer", img: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=400&q=80" },
-    { name: "Djack Heavy Duty Woofer", img: "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=400&q=80" },
-    { name: "Oscar 3.1 Surround Sound", img: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=400&q=80" },
-    { name: "Haier Sound System", img: "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=400&q=80" },
-    { name: "Armco 2.1 Audio System", img: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=400&q=80" },
-    { name: "Ramtons Hi-Fi Hoofer", img: "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=400&q=80" },
-    { name: "Syinix Soundbar", img: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=400&q=80" },
-    { name: "Roch Home Theatre", img: "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=400&q=80" },
-    { name: "Nunix Subwoofer Hoofer", img: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=400&q=80" },
-    { name: "Decakila Audio System", img: "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=400&q=80" },
-    { name: "Geepas Bluetooth Tower", img: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=400&q=80" },
-    { name: "Royal Sound System", img: "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=400&q=80" },
-    { name: "Skyworth Audio Bar", img: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=400&q=80" },
-    { name: "Hisense Party Speaker", img: "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=400&q=80" },
-    { name: "JBL Bar 2.1 Deep Bass", img: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=400&q=80" }
+  // 20 SMARTPHONE MODELS (WITH REAL ASSET MAPPING, CASH & FINANCING PRICING)
+  const phonesList = [
+    { name: "Apple iPhone 16 Pro Max", category: "Flagship", cash: 225000, deposit: 48000, daily: 380, img: "image_agent_tag_4770646519988080882" },
+    { name: "Apple iPhone 16", category: "Flagship", cash: 145000, deposit: 32000, daily: 250, img: "image_agent_tag_4770646519988080882" },
+    { name: "Apple iPhone 15", category: "Flagship", cash: 118000, deposit: 26000, daily: 210, img: "image_agent_tag_4770646519988080882" },
+    { name: "Samsung Galaxy S24 Ultra", category: "Flagship", cash: 185000, deposit: 39000, daily: 310, img: "image_agent_tag_4770646519988083163" },
+    { name: "Samsung Galaxy S24+", category: "Flagship", cash: 138000, deposit: 30000, daily: 235, img: "image_agent_tag_4770646519988083163" },
+    { name: "Samsung Galaxy Z Fold 6", category: "Foldable", cash: 240000, deposit: 52000, daily: 410, img: "image_agent_tag_4770646519988083163" },
+    { name: "Samsung Galaxy Z Flip 6", category: "Foldable", cash: 142000, deposit: 31000, daily: 240, img: "image_agent_tag_4770646519988083163" },
+    { name: "Samsung Galaxy A55 5G", category: "Mid-Range", cash: 54000, deposit: 11500, daily: 95, img: "image_agent_tag_4770646519988083163" },
+    { name: "Google Pixel 9 Pro", category: "AI Flagship", cash: 155000, deposit: 33000, daily: 260, img: "image_agent_tag_4770646519988083768" },
+    { name: "Google Pixel 8a", category: "Mid-Range", cash: 62000, deposit: 13500, daily: 110, img: "image_agent_tag_4770646519988083768" },
+    { name: "Xiaomi 14 Ultra", category: "Camera Flagship", cash: 175000, deposit: 37000, daily: 290, img: "image_agent_tag_4770646519988082558" },
+    { name: "Xiaomi Poco F6 Pro", category: "Gaming", cash: 68000, deposit: 14500, daily: 118, img: "image_agent_tag_4770646519988082558" },
+    { name: "Xiaomi Redmi Note 13 Pro+", category: "Mid-Range", cash: 49000, deposit: 10500, daily: 86, img: "image_agent_tag_4770646519988082558" },
+    { name: "OnePlus 12", category: "Flagship", cash: 128000, deposit: 27500, daily: 215, img: "image_agent_tag_4770646519988080743" },
+    { name: "OnePlus Nord 4", category: "Mid-Range", cash: 52000, deposit: 11000, daily: 90, img: "image_agent_tag_4770646519988080743" },
+    { name: "Infinix Note 40 Pro", category: "Budget Mid-Range", cash: 36000, deposit: 7500, daily: 64, img: "image_agent_tag_4770646519988080743" },
+    { name: "Infinix Zero 30 5G", category: "Vlogging", cash: 42000, deposit: 9000, daily: 74, img: "image_agent_tag_4770646519988080743" },
+    { name: "Tecno Camon 30 Pro", category: "Camera Focused", cash: 45000, deposit: 9600, daily: 79, img: "image_agent_tag_4770646519988080743" },
+    { name: "Tecno Phantom V Fold", category: "Budget Foldable", cash: 115000, deposit: 24500, daily: 195, img: "image_agent_tag_4770646519988080743" },
+    { name: "Nothing Phone (2a)", category: "Design Entry", cash: 43000, deposit: 9200, daily: 75, img: "image_agent_tag_4770646519988080743" }
   ];
 
-  // ELECTRONICS & APPLIANCES WITH REAL IMAGERY
+  // COOKERS & STOVES
+  const cookersList = [
+    { name: "Free-standing Dual Fuel Range (3 Gas + 1 Elec)", cash: 48000, deposit: 12000, weekly: 850, img: "image_agent_tag_4770646519988081953" },
+    { name: "Full 4-Burner Gas Stove & Oven", cash: 39000, deposit: 9800, weekly: 690, img: "image_agent_tag_4770646519988081953" },
+    { name: "Built-In Gas & Induction Hob Glass Top", cash: 32000, deposit: 8000, weekly: 560, img: "image_agent_tag_4770646519988081953" },
+    { name: "Tabletop Double Burner Gas Cooker", cash: 9500, deposit: 2500, weekly: 180, img: "image_agent_tag_4770646519988081953" }
+  ];
+
+  // HOME APPLIANCES
   const appliancesList = [
-    { name: "Double-Door Fridge (Ramtons)", deposit: 14500, weekly: 650, total: 48000, img: "https://images.unsplash.com/photo-1584568694244-14fbdf83bd38?auto=format&fit=crop&w=400&q=80" },
-    { name: "Automatic Washing Machine (Von)", deposit: 16000, weekly: 700, total: 54000, img: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=400&q=80" },
-    { name: "Digital Microwave (Geepas)", deposit: 3500, weekly: 200, total: 12500, img: "https://images.unsplash.com/photo-1585659722983-380ff0777c69?auto=format&fit=crop&w=400&q=80" },
-    { name: "Hot & Cold Water Dispenser", deposit: 4200, weekly: 220, total: 15000, img: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=400&q=80" },
-    { name: "Solar Home Lighting System", deposit: 6500, weekly: 300, total: 22000, img: "https://images.unsplash.com/photo-1509391365360-80d5656efc54?auto=format&fit=crop&w=400&q=80" },
-    { name: "Standing Fan (Bruhm)", deposit: 2500, weekly: 150, total: 8500, img: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=400&q=80" },
-    { name: "Deep Freezer 200L (Hisense)", deposit: 15500, weekly: 680, total: 52000, img: "https://images.unsplash.com/photo-1584568694244-14fbdf83bd38?auto=format&fit=crop&w=400&q=80" },
-    { name: "Induction Cooktop (Decakila)", deposit: 2800, weekly: 160, total: 9800, img: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=400&q=80" }
+    { name: "Top Mount Double Door Refrigerator (250L)", cash: 58000, deposit: 14500, weekly: 980, img: "image_agent_tag_4770646519988084373" },
+    { name: "Automatic Front-Load Washer (8kg)", cash: 64000, deposit: 16000, weekly: 1080, img: "image_agent_tag_4770646519988081487" },
+    { name: "Countertop Digital Air Fryer (6L)", cash: 14500, deposit: 3500, weekly: 250, img: "image_agent_tag_4770646519988083024" },
+    { name: "Convection Grill Microwave Oven (23L)", cash: 16800, deposit: 4200, weekly: 290, img: "image_agent_tag_4770646519988082092" }
   ];
 
   window.onload = function() {
@@ -1127,80 +809,93 @@
       countySelect.appendChild(opt);
     });
 
-    // Populate 20 TVs Catalog with real images
+    // Populate 20 TV Models
     const tvGrid = document.getElementById('tvCatalogGrid');
-    tvBrandsList.forEach((tvObj, idx) => {
-      const deposit = idx === 0 ? 12000 : (idx === 1 ? 16790 : 11000 + (idx * 350));
-      const weekly = idx === 0 ? 450 : (idx === 1 ? 540 : 420 + (idx * 20));
-      const total = idx === 0 ? 35000 : (idx === 1 ? 39000 : 33000 + (idx * 1100));
-
+    tvsList.forEach((tv) => {
       tvGrid.innerHTML += `
         <div class="bg-watuBgSoft rounded-3xl p-5 border border-gray-200 flex flex-col justify-between hover:shadow-lg transition">
           <div>
-            <div class="bg-white rounded-2xl p-3 shadow-sm mb-3 border border-gray-100 text-center">
-              <img src="${tvObj.img}" alt="${tvObj.name}" class="h-32 object-contain mx-auto">
+            <div class="bg-white rounded-2xl p-3 shadow-sm mb-3 text-center border border-gray-100">
+              <img src="${tv.img}" alt="${tv.name}" class="h-32 object-contain mx-auto">
             </div>
             <span class="bg-watuTeal/10 text-watuDarkTeal font-bold text-[9px] px-2.5 py-1 rounded-md uppercase">Smart TV</span>
-            <h4 class="font-extrabold text-watuInk text-sm mt-2">${tvObj.name} 43"</h4>
+            <h4 class="font-extrabold text-watuInk text-xs mt-2 min-h-[32px]">${tv.name}</h4>
             <div class="space-y-1.5 text-xs border-t border-b border-gray-200 py-2.5 my-3">
-              <div class="flex justify-between"><span class="text-gray-600">Total Credit:</span><strong class="text-watuInk">KES ${total.toLocaleString()}</strong></div>
-              <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-watuDarkTeal">KES ${deposit.toLocaleString()}</strong></div>
-              <div class="flex justify-between"><span class="text-gray-600">Weekly:</span><strong class="text-emerald-600">KES ${weekly.toLocaleString()} /wk</strong></div>
-              <div class="flex justify-between"><span class="text-gray-600">Warranty:</span><strong class="text-gray-900">12 Months</strong></div>
+              <div class="flex justify-between"><span class="text-gray-600">Original Cash:</span><strong class="text-watuInk font-bold">KES ${tv.cash.toLocaleString()}</strong></div>
+              <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-watuDarkTeal font-extrabold">KES ${tv.deposit.toLocaleString()}</strong></div>
+              <div class="flex justify-between"><span class="text-gray-600">Weekly:</span><strong class="text-emerald-600 font-extrabold">KES ${tv.weekly.toLocaleString()} /wk</strong></div>
             </div>
           </div>
-          <button onclick="selectProductAndApply('${tvObj.name} 43\"')" class="w-full bg-watuYellow hover:bg-yellow-400 text-watuInk font-extrabold py-2.5 rounded-xl text-xs shadow transition">
+          <button onclick="selectProductAndApply('${tv.name}')" class="w-full bg-watuYellow hover:bg-yellow-400 text-watuInk font-extrabold py-2.5 rounded-xl text-xs shadow transition">
             Order Now
           </button>
         </div>
       `;
     });
 
-    // Populate 20 Audio / Home Theatre (Hoofers) Catalog with real images
-    const audioGrid = document.getElementById('audioCatalogGrid');
-    audioBrandsList.forEach((audioObj, idx) => {
-      const deposit = 4500 + (idx * 180);
-      const weekly = 250 + (idx * 15);
-      const total = 14000 + (idx * 550);
+    // Populate 20 Phone Models
+    const phoneGrid = document.getElementById('phoneCatalogGrid');
+    phonesList.forEach((phone) => {
+      phoneGrid.innerHTML += `
+        <div class="bg-white rounded-3xl p-5 border border-green-200 flex flex-col justify-between hover:shadow-lg transition">
+          <div>
+            <div class="bg-gray-50 rounded-2xl p-3 shadow-sm mb-3 text-center border border-gray-100">
+              <img src="${phone.img}" alt="${phone.name}" class="h-32 object-contain mx-auto">
+            </div>
+            <span class="bg-green-600 text-white font-bold text-[9px] px-2.5 py-1 rounded-md uppercase">${phone.category}</span>
+            <h4 class="font-extrabold text-watuInk text-xs mt-2 min-h-[32px]">${phone.name}</h4>
+            <div class="space-y-1.5 text-xs border-t border-b border-gray-200 py-2.5 my-3">
+              <div class="flex justify-between"><span class="text-gray-600">Original Cash:</span><strong class="text-watuInk font-bold">KES ${phone.cash.toLocaleString()}</strong></div>
+              <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-watuDarkTeal font-extrabold">KES ${phone.deposit.toLocaleString()}</strong></div>
+              <div class="flex justify-between"><span class="text-gray-600">Daily Payment:</span><strong class="text-emerald-600 font-extrabold">KES ${phone.daily} /day</strong></div>
+            </div>
+          </div>
+          <button onclick="selectProductAndApply('${phone.name}')" class="w-full bg-watuYellow hover:bg-yellow-400 text-watuInk font-extrabold py-2.5 rounded-xl text-xs shadow transition">
+            Order Now
+          </button>
+        </div>
+      `;
+    });
 
-      audioGrid.innerHTML += `
+    // Populate Cookers Catalog
+    const cookersGrid = document.getElementById('cookersCatalogGrid');
+    cookersList.forEach((item) => {
+      cookersGrid.innerHTML += `
         <div class="bg-white rounded-3xl p-5 border border-gray-200 flex flex-col justify-between hover:shadow-lg transition">
           <div>
-            <div class="bg-gray-50 rounded-2xl p-3 shadow-sm mb-3 border border-gray-100 text-center">
-              <img src="${audioObj.img}" alt="${audioObj.name}" class="h-32 object-contain mx-auto">
+            <div class="bg-watuBgSoft rounded-2xl p-3 shadow-sm mb-3 text-center border border-gray-100">
+              <img src="${item.img}" alt="${item.name}" class="h-32 object-contain mx-auto">
             </div>
-            <span class="bg-watuYellow/30 text-watuInk font-bold text-[9px] px-2.5 py-1 rounded-md uppercase">Hi-Fi Hoofer</span>
-            <h4 class="font-extrabold text-watuInk text-sm mt-2">${audioObj.name}</h4>
+            <span class="bg-watuYellow/40 text-watuInk font-bold text-[9px] px-2.5 py-1 rounded-md uppercase">Cooker Range</span>
+            <h4 class="font-extrabold text-watuInk text-xs mt-2 min-h-[32px]">${item.name}</h4>
             <div class="space-y-1.5 text-xs border-t border-b border-gray-200 py-2.5 my-3">
-              <div class="flex justify-between"><span class="text-gray-600">Total Credit:</span><strong class="text-watuInk">KES ${total.toLocaleString()}</strong></div>
-              <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-watuDarkTeal">KES ${deposit.toLocaleString()}</strong></div>
-              <div class="flex justify-between"><span class="text-gray-600">Weekly:</span><strong class="text-emerald-600">KES ${weekly.toLocaleString()} /wk</strong></div>
-              <div class="flex justify-between"><span class="text-gray-600">Warranty:</span><strong class="text-gray-900">12 Months</strong></div>
+              <div class="flex justify-between"><span class="text-gray-600">Original Cash:</span><strong class="text-watuInk font-bold">KES ${item.cash.toLocaleString()}</strong></div>
+              <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-watuDarkTeal font-extrabold">KES ${item.deposit.toLocaleString()}</strong></div>
+              <div class="flex justify-between"><span class="text-gray-600">Weekly:</span><strong class="text-emerald-600 font-extrabold">KES ${item.weekly.toLocaleString()} /wk</strong></div>
             </div>
           </div>
-          <button onclick="selectProductAndApply('${audioObj.name}')" class="w-full bg-watuTeal hover:bg-watuDarkTeal text-white font-extrabold py-2.5 rounded-xl text-xs shadow transition">
+          <button onclick="selectProductAndApply('${item.name}')" class="w-full bg-watuTeal hover:bg-watuDarkTeal text-white font-extrabold py-2.5 rounded-xl text-xs shadow transition">
             Order Now
           </button>
         </div>
       `;
     });
 
-    // Populate Appliances Catalog with real images
+    // Populate Home Appliances Catalog
     const appGrid = document.getElementById('appliancesCatalogGrid');
     appliancesList.forEach(app => {
       appGrid.innerHTML += `
         <div class="bg-watuBgSoft rounded-3xl p-5 border border-gray-200 flex flex-col justify-between hover:shadow-lg transition">
           <div>
-            <div class="bg-white rounded-2xl p-3 shadow-sm mb-3 border border-gray-100 text-center">
+            <div class="bg-white rounded-2xl p-3 shadow-sm mb-3 text-center border border-gray-100">
               <img src="${app.img}" alt="${app.name}" class="h-32 object-contain mx-auto">
             </div>
             <span class="bg-emerald-100 text-emerald-800 font-bold text-[9px] px-2.5 py-1 rounded-md uppercase">Appliance</span>
-            <h4 class="font-extrabold text-watuInk text-sm mt-2">${app.name}</h4>
+            <h4 class="font-extrabold text-watuInk text-xs mt-2 min-h-[32px]">${app.name}</h4>
             <div class="space-y-1.5 text-xs border-t border-b border-gray-200 py-2.5 my-3">
-              <div class="flex justify-between"><span class="text-gray-600">Total Credit:</span><strong class="text-watuInk">KES ${app.total.toLocaleString()}</strong></div>
-              <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-watuDarkTeal">KES ${app.deposit.toLocaleString()}</strong></div>
-              <div class="flex justify-between"><span class="text-gray-600">Weekly:</span><strong class="text-emerald-600">KES ${app.weekly.toLocaleString()} /wk</strong></div>
-              <div class="flex justify-between"><span class="text-gray-600">Warranty:</span><strong class="text-gray-900">12 Months</strong></div>
+              <div class="flex justify-between"><span class="text-gray-600">Original Cash:</span><strong class="text-watuInk font-bold">KES ${app.cash.toLocaleString()}</strong></div>
+              <div class="flex justify-between"><span class="text-gray-600">Deposit:</span><strong class="text-watuDarkTeal font-extrabold">KES ${app.deposit.toLocaleString()}</strong></div>
+              <div class="flex justify-between"><span class="text-gray-600">Weekly:</span><strong class="text-emerald-600 font-extrabold">KES ${app.weekly.toLocaleString()} /wk</strong></div>
             </div>
           </div>
           <button onclick="selectProductAndApply('${app.name}')" class="w-full bg-watuYellow hover:bg-yellow-400 text-watuInk font-extrabold py-2.5 rounded-xl text-xs shadow transition">
@@ -1256,14 +951,6 @@
     }
   }
 
-  // PHONE CAROUSEL SCROLLER
-  function scrollPhoneCarousel(index) {
-    const carousel = document.getElementById('phoneCarousel');
-    const cardWidth = carousel.querySelector('div').offsetWidth + 24;
-    carousel.scrollTo({ left: cardWidth * index, behavior: 'smooth' });
-  }
-
-  // DIRECT WHATSAPP AUTOMATED ROUTER (Masked numbers, opens direct link)
   function openWatuWhatsApp(customContext) {
     const defaultText = `Hello Watu Kenya Team, I would like to inquire about asset financing for: *${customContext}*. Please guide me through the deposit and requirements.`;
     const encoded = encodeURIComponent(defaultText);
@@ -1271,7 +958,6 @@
     window.open(waUrl, '_blank');
   }
 
-  // DYNAMIC COUNTER ANIMATION (Page 1)
   function animateStats() {
     const animate = (id, target, suffix, prefix = '') => {
       const el = document.getElementById(id);
@@ -1281,7 +967,7 @@
       const stepTime = 30;
       const steps = duration / stepTime;
       const increment = target / steps;
-      
+        
       const timer = setInterval(() => {
         start += increment;
         if (start >= target) {
@@ -1299,7 +985,6 @@
     animate('statMarkets', 7, '+');
   }
 
-  // APPLICATION FORM SUBMISSION VIA WHATSAPP
   function submitWatuApplication(e) {
     e.preventDefault();
 
@@ -1338,7 +1023,6 @@
     window.open(whatsappUrl, '_blank');
   }
 
-  // ASK WATU AI CHATBOT (Strictly responds to 5 FAQ buttons)
   function toggleAiChat() {
     document.getElementById('aiChatBox').classList.toggle('hidden');
   }
@@ -1350,20 +1034,20 @@
 
     switch(faqId) {
       case 1:
-        qText = "How much is the Boda Boda deposit?";
-        aText = "Bajaj Boxer BM 100 deposit is KES 23,899 (weekly KES 3,000). BM 125 deposit is KES 32,599 (weekly KES 2,200). BM 150 deposit is KES 40,399 (weekly KES 3,300).";
+        qText = "What are the Boda Boda deposit rates?";
+        aText = "BM 100 deposit is KES 23,899 (weekly KES 3,000). BM 125 deposit is KES 32,599 (weekly KES 2,200). BM 150 deposit is KES 40,399 (weekly KES 3,300).";
         break;
       case 2:
-        qText = "When do I get my NTSA logbook?";
-        aText = "Original NTSA Logbook ownership documents are handed over directly to you immediately upon 100% full completion of loan repayments.";
+        qText = "What are the Smart TV models and original prices?";
+        aText = "We feature 20 unique Smart TV models (Samsung, LG, Sony, TCL, Hisense, Vision Plus, Skyworth, etc.) with original cash prices starting from KES 35,000 up to KES 340,000 with flexible weekly financing.";
         break;
       case 3:
-        qText = "What are Samsung phone daily rates?";
-        aText = "Samsung smartphones require an initial deposit starting from KES 1,599 with daily payments of only KES 58 per day over a 17-month warranty period.";
+        qText = "What are the smartphone daily rates?";
+        aText = "20 unique models (iPhone 16 series, Galaxy S24/A-series, Pixel 9, Xiaomi, OnePlus, Infinix, Tecno) with original cash pricing and daily rates starting as low as KES 64/day up to KES 410/day.";
         break;
       case 4:
-        qText = "What are Smart TV & Home Theatre deposits?";
-        aText = "Hisense 43\" Smart TV deposit is KES 12,000 (weekly KES 450, total KES 35,000). Samsung TV deposit is KES 16,790 (weekly KES 540, total KES 39,000). Home theatre deposits start at KES 4,500.";
+        qText = "What cookers and home appliances are available?";
+        aText = "Free-standing standing gas/electric ranges, tabletop burners, 250L double-door fridges, 8kg front-load washers, 6L air fryers, and convection microwaves on flexible payment terms.";
         break;
       case 5:
         qText = "Where is the Embakasi branch located?";
@@ -1371,13 +1055,11 @@
         break;
     }
 
-    // Append User Question Bubble
     const userBubble = document.createElement('div');
     userBubble.className = "bg-watuTeal text-white p-3 rounded-2xl rounded-tr-none text-right font-medium self-end shadow-sm ml-auto max-w-[85%]";
     userBubble.innerText = qText;
     messages.appendChild(userBubble);
 
-    // Append AI Response Bubble
     setTimeout(() => {
       const aiBubble = document.createElement('div');
       aiBubble.className = "bg-white p-3 rounded-2xl rounded-tl-none border border-gray-200 text-gray-800 shadow-sm max-w-[85%]";
